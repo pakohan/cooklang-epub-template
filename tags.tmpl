@@ -1,0 +1,10 @@
+<h3>Stichwortverzeichnis</h3>
+
+{{range .Tags}}
+<h4>{{.Title}}</h4>
+<ul>
+{{range .Recipes}}
+<li><a href="recipe_{{.Index}}.xhtml">{{.Recipe.Metadata.Title}}</a></li>
+{{end}}
+</ul>
+{{end}}

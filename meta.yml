@@ -1,0 +1,11 @@
+sections:
+  - templateName: cover.tmpl
+    title: Buchtitel
+  - templateName: toc.tmpl
+    title: Inhaltsverzeichnis
+  - templateName: recipe.tmpl
+    title: Rezepte
+    isRecipeSection: true
+  - templateName: tags.tmpl
+    title: Stichwortverzeichnis
+    id: tags

@@ -1,0 +1,9 @@
+<h2>Inhaltsverzeichnis</h2>
+
+{{range $index, $element := .Recipes}}
+<a href="recipe_{{$index}}.xhtml">{{$element.Metadata.Title}}</a>
+<br/>
+{{end}}
+<br/>
+<br/>
+<a href="tags.xhtml">Stichwortverzeichnis</a>
